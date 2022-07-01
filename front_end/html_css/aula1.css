@@ -1,18 +1,57 @@
 body{
     background-color: #ccc;
+    margin: auto;
+    max-width: 700px;
 
 }
 #titi, .subtiti, .post_titi{
     color: blue;
+    
+    
+}
+
+#titi{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#titi, .subtiti{
+    padding-left: 10px;
 }
 
 .post_titi{
-    font-size: 10px;
+    font-size: 20px;
     font-family: italic;
+    margin: 0;
+    margin-bottom: 10px;
 }
 .post{
     background-color: #fff;
     padding: 20px;
     border: 3px solid black;
-    margin: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+p{
+    margin: 0;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+img{
+    width: 100%;
+    height: 200px;
+   
+}
+
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    list-style-type: square;
 }

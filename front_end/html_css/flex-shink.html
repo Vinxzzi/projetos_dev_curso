@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fund-flex-shrink</title>
+    <style>
+        .content{
+            border: 1px solid black;
+            display: flex;
+            max-width: 350px;
+
+        }
+
+        .item{
+            background-color: brown;
+            margin: 5px;
+            font-size: 24px;
+            text-align: center;
+        }
+        .s-1{
+            flex-shrink: 1;
+        }
+        .s-0{
+            flex-shrink: 0;
+            flex-basis: 100px;
+        }
+
+        .fg1{
+            flex-grow: 1 ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex-shrink:1</h1>
+    <div class="content">
+        <div class="item s-1 fg1">a</div>
+        <div class="item s-1 fg1">b</div>
+        <div class="item s-1 fg1">c</div>
+        <div class="item s-1 fg1">d</div>
+        <div class="item s-1 fg1">e</div>
+    </div>
+
+    
+    <div class="content">
+        <div class="item s-1 fg1">a</div>
+        <div class="item s-1 fg1">Lorem ipsum dolor</div>
+        <div class="item s-1 fg1">c</div>
+        <div class="item s-1 fg1">d</div>
+        <div class="item s-1 fg1">e</div>
+    </div>
+ 
+    <h1>Flex-shrink:0</h1>
+    <div class="content">
+        <div class="item s-0 fg1">a</div>
+        <div class="item s-0 fg1">Lorem ipsum dolor</div>
+        <div class="item s-0 fg1">c</div>
+        <div class="item s-0 fg1">d</div>
+        <div class="item s-0 fg1">e</div>
+    </div>
+</body>
+</html>

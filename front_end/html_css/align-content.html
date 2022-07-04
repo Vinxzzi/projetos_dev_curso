@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fund-Align-Content</title>
+    <style>
+        .content{
+            border: 1px solid black;
+           height: 450px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .item{
+            background-color: tomato;
+            color: white;
+            text-align: center;
+            margin: 5px;
+            flex: 1;
+        }
+
+        .stretch{
+            align-content: stretch;
+        }
+
+        .center{
+            align-content: center;
+        }
+
+        .flex-start{
+            align-content: flex-start;
+        }
+
+        .flex-end{
+            align-content: flex-end;
+        }
+
+        .space-around{
+            align-content: space-around;
+        }
+
+        .space-between{
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Stretch</h2>
+    <section class="content stretch">
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, eveniet</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, eveniet</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, e</div>
+        <div class="item">Lorem ipsum dolor, sit amet </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, evenietLorem ipsum dolor, sit amet consectetur </div>
+
+    </section>
+
+
+    <h2>Center</h2>
+    <section class="content center">
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, eveniet</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, eveniet</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, eveniet</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, evenietLorem it</div>
+        <div class="item">Lorem ipsum dolor, sit amet </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, evenietLorem ipsum dolor, sit amet consectetur </div>
+        <div class="item">Lorem ipsum dolor, sit amet </div>
+
+    </section>
+
+    <h2>Flex-Start</h2>
+    <section class="content flex-start">
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, eveniet</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, eveniet</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, eveniet</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, evenietLorem it</div>
+        <div class="item">Lorem ipsum dolor, sit amet </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, evenietLorem ipsum dolor, sit amet consectetur </div>
+        <div class="item">Lorem ipsum dolor, sit amet </div>
+
+    </section>
+
+    <h2>Flex-End</h2>
+    <section class="content flex-end">
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, eveniet</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, eveniet</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, eveniet</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, evenietLorem it</div>
+        <div class="item">Lorem ipsum dolor, sit amet </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, evenietLorem ipsum dolor, sit amet consectetur </div>
+        <div class="item">Lorem ipsum dolor, sit amet </div>
+
+    </section>
+
+    <h2>Space-around</h2>
+    <section class="content space-around">
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, eveniet</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, eveniet</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, eveniet</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, evenietLorem it</div>
+        <div class="item">Lorem ipsum dolor, sit amet </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, evenietLorem ipsum dolor, sit amet consectetur </div>
+        <div class="item">Lorem ipsum dolor, sit amet </div>
+
+    </section>
+
+
+    <h2>Space-between</h2>
+    <section class="content space-between">
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, eveniet</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, eveniet</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, eveniet</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing </div>
+        <div class="item">Lorem ipsum dolor, sit amet </div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, evenietLorem ipsum dolor, sit amet consectetur </div>
+        <div class="item">Lorem ipsum dolor, sit amet </div>
+        <div class="item">Lorem ipsum dolor, sit amet </div>
+
+    </section>
+</body>
+</html>

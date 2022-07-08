@@ -16,8 +16,8 @@ function soma(x,y){
 
 
 
-var num1=prompt ("Digite um numero ");
-var num1=prompt ("Digite um numero ");
+var num1=10,num2=30;
+
 console.log(igual(num1,num2),soma(num1,num2));
 
 
